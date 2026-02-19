@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://kalakshepa.onrender.com",
+    origin: "https://kalakshepa-2.onrender.com/",
     methods: ["GET", "POST"],
   }
 });
