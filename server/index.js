@@ -34,6 +34,10 @@ io.on("connection", (socket) => {
   });
   });
 
+  app.get("/", (req, res) => {
+    res.send("kalakshepa backend is running");
+  });
+
  const PORT = process.env.PORT || 5000;
 
 server.listen(PORT, "0.0.0.0", () => {
